@@ -1,7 +1,7 @@
 {
     "name": "@prokopschield/darwin-x64",
     "description": "Prebuilt binary package for `ps-hash-neon` on `darwin-x64`.",
-    "version": "0.1.0-8",
+    "version": "0.1.0-9",
     "os": [
         "darwin"
     ],
