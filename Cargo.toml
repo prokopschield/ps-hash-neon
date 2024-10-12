@@ -1,0 +1,3 @@
+[workspace]
+members = ["crates/ps-hash-neon"]
+resolver = "2"

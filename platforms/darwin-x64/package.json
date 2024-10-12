@@ -1,0 +1,36 @@
+{
+    "name": "@prokopschield/darwin-x64",
+    "description": "Prebuilt binary package for `ps-hash-neon` on `darwin-x64`.",
+    "version": "0.1.0-8",
+    "os": [
+        "darwin"
+    ],
+    "cpu": [
+        "x64"
+    ],
+    "main": "index.node",
+    "files": [
+        "index.node"
+    ],
+    "neon": {
+        "type": "binary",
+        "rust": "x86_64-apple-darwin",
+        "node": "darwin-x64",
+        "os": "darwin",
+        "arch": "x64",
+        "abi": null
+    },
+    "author": "Prokop Schield",
+    "repository": {
+        "type": "git",
+        "url": "git+ssh://git@github.com/prokopschield/ps-hash-neon.git"
+    },
+    "keywords": [
+        "hash"
+    ],
+    "bugs": {
+        "url": "https://github.com/prokopschield/ps-hash-neon/issues"
+    },
+    "homepage": "https://github.com/prokopschield/ps-hash-neon#readme",
+    "license": "GPL-3.0-or-later"
+}

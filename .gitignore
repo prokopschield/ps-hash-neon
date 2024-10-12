@@ -1,0 +1,8 @@
+cargo.log
+cross.log
+**/.DS_Store
+index.node
+lib
+**/node_modules
+npm-debug.log*
+target
