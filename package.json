@@ -1,6 +1,6 @@
 {
     "name": "ps-hash-neon",
-    "version": "0.1.0-10",
+    "version": "0.1.0-10-1",
     "description": "Node.js bindings for ps-hash",
     "main": "./lib/index.cjs",
     "scripts": {
