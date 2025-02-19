@@ -1,5 +1,5 @@
 {
-    "name": "@prokopschield/darwin-x64",
+    "name": "@ps-hash-neon/darwin-x64",
     "description": "Prebuilt binary package for `ps-hash-neon` on `darwin-x64`.",
     "version": "0.1.0-9",
     "os": [

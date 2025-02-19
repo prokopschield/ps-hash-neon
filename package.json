@@ -37,18 +37,18 @@
     ],
     "neon": {
         "type": "library",
-        "org": "@prokopschield",
+        "org": "@ps-hash-neon",
         "platforms": "common",
         "load": "./src/load.cts"
     },
     "devDependencies": {
-        "@neon-rs/cli": "^0.1.73",
+        "@neon-rs/cli": "^0.1.82",
         "@tsconfig/node20": "^20.1.4",
         "@types/node": "^20.11.16",
         "typescript": "^5.3.3"
     },
     "dependencies": {
-        "@neon-rs/load": "^0.1.73"
+        "@neon-rs/load": "^0.1.82"
     },
     "repository": {
         "type": "git",
@@ -60,5 +60,12 @@
     "bugs": {
         "url": "https://github.com/prokopschield/ps-hash-neon/issues"
     },
-    "homepage": "https://github.com/prokopschield/ps-hash-neon#readme"
+    "homepage": "https://github.com/prokopschield/ps-hash-neon#readme",
+    "optionalDependencies": {
+        "@ps-hash-neon/win32-x64-msvc": "0.1.0-9",
+        "@ps-hash-neon/darwin-x64": "0.1.0-9",
+        "@ps-hash-neon/darwin-arm64": "0.1.0-9",
+        "@ps-hash-neon/linux-x64-gnu": "0.1.0-9",
+        "@ps-hash-neon/linux-arm64-gnu": "0.1.0-9"
+    }
 }

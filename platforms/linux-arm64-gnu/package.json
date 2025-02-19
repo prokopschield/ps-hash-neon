@@ -1,5 +1,5 @@
 {
-    "name": "@prokopschield/linux-arm64-gnu",
+    "name": "@ps-hash-neon/linux-arm64-gnu",
     "description": "Prebuilt binary package for `ps-hash-neon` on `linux-arm64-gnu`.",
     "version": "0.1.0-9",
     "os": [
