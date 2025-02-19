@@ -37,7 +37,7 @@
     ],
     "neon": {
         "type": "library",
-        "org": "@ps-hash-neon",
+        "org": "@prokopschield",
         "platforms": "common",
         "load": "./src/load.cts"
     },
@@ -62,10 +62,10 @@
     },
     "homepage": "https://github.com/prokopschield/ps-hash-neon#readme",
     "optionalDependencies": {
-        "@ps-hash-neon/win32-x64-msvc": "0.1.0-9",
-        "@ps-hash-neon/darwin-x64": "0.1.0-9",
-        "@ps-hash-neon/darwin-arm64": "0.1.0-9",
-        "@ps-hash-neon/linux-x64-gnu": "0.1.0-9",
-        "@ps-hash-neon/linux-arm64-gnu": "0.1.0-9"
+        "@prokopschield/ps-hash-neon-win32-x64-msvc": "0.1.0-9",
+        "@prokopschield/ps-hash-neon-darwin-x64": "0.1.0-9",
+        "@prokopschield/ps-hash-neon-darwin-arm64": "0.1.0-9",
+        "@prokopschield/ps-hash-neon-linux-x64-gnu": "0.1.0-9",
+        "@prokopschield/ps-hash-neon-linux-arm64-gnu": "0.1.0-9"
     }
 }

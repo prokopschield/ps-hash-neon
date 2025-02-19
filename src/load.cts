@@ -7,11 +7,11 @@
 
 module.exports = require("@neon-rs/load").proxy({
     platforms: {
-        "win32-x64-msvc": () => require("@ps-hash-neon/win32-x64-msvc"),
-        "darwin-x64": () => require("@ps-hash-neon/darwin-x64"),
-        "darwin-arm64": () => require("@ps-hash-neon/darwin-arm64"),
-        "linux-x64-gnu": () => require("@ps-hash-neon/linux-x64-gnu"),
-        "linux-arm64-gnu": () => require("@ps-hash-neon/linux-arm64-gnu"),
+        "win32-x64-msvc": () => require("@prokopschield/ps-hash-neon-win32-x64-msvc"),
+        "darwin-x64": () => require("@prokopschield/ps-hash-neon-darwin-x64"),
+        "darwin-arm64": () => require("@prokopschield/ps-hash-neon-darwin-arm64"),
+        "linux-x64-gnu": () => require("@prokopschield/ps-hash-neon-linux-x64-gnu"),
+        "linux-arm64-gnu": () => require("@prokopschield/ps-hash-neon-linux-arm64-gnu"),
     },
     debug: () => require("../index.node"),
 });

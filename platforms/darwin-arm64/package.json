@@ -1,5 +1,5 @@
 {
-    "name": "@ps-hash-neon/darwin-arm64",
+    "name": "@prokopschield/ps-hash-neon-darwin-arm64",
     "description": "Prebuilt binary package for `ps-hash-neon` on `darwin-arm64`.",
     "version": "0.1.0-9",
     "os": [
