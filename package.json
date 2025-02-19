@@ -1,6 +1,6 @@
 {
     "name": "ps-hash-neon",
-    "version": "0.1.0-10-1",
+    "version": "0.1.0-10-3",
     "description": "Node.js bindings for ps-hash",
     "main": "./lib/index.cjs",
     "scripts": {
@@ -62,10 +62,10 @@
     },
     "homepage": "https://github.com/prokopschield/ps-hash-neon#readme",
     "optionalDependencies": {
-        "@prokopschield/ps-hash-neon-win32-x64-msvc": "0.1.0-9",
-        "@prokopschield/ps-hash-neon-darwin-x64": "0.1.0-9",
-        "@prokopschield/ps-hash-neon-darwin-arm64": "0.1.0-9",
-        "@prokopschield/ps-hash-neon-linux-x64-gnu": "0.1.0-9",
-        "@prokopschield/ps-hash-neon-linux-arm64-gnu": "0.1.0-9"
+        "@prokopschield/ps-hash-neon-win32-x64-msvc": "0.1.0-10-1",
+        "@prokopschield/ps-hash-neon-darwin-x64": "0.1.0-10-1",
+        "@prokopschield/ps-hash-neon-darwin-arm64": "0.1.0-10-1",
+        "@prokopschield/ps-hash-neon-linux-x64-gnu": "0.1.0-10-1",
+        "@prokopschield/ps-hash-neon-linux-arm64-gnu": "0.1.0-10-1"
     }
 }
