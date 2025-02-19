@@ -21,11 +21,33 @@ export function hash<T>(data: T): string {
     } else if (typeof data === "string" || data instanceof String) {
         // Handle string data
         return addon.hash(Buffer.from(data as string));
-    } else if (typeof data === "object") {
-        // For non-binary objects, attempt JSON serialization
-        return addon.hash(Buffer.from(JSON.stringify(data)));
+    } else if (data && typeof data === "object") {
+        // For non-binary objects, use order-independent hashing
+        return hash_object(data);
     } else {
         // Fallback to converting data to a string and hashing
         return addon.hash(Buffer.from(String(data)));
     }
+}
+
+export function* hash_iterable<T>(iterable: Iterable<T>) {
+    for (const item of iterable) {
+        yield hash(item);
+    }
+}
+
+export function hash_array<T>(array: T[]): string {
+    return hash(`[${array.map(hash).sort().join(",")}]`);
+}
+
+export function hash_object(object: Record<keyof any, any>): string {
+    if (Array.isArray(object)) {
+        return hash_array(object);
+    }
+
+    if (typeof object[Symbol.iterator] === "function") {
+        return hash_array([...object[Symbol.iterator]()]);
+    }
+
+    return hash_array(Object.entries(object));
 }
